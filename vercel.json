@@ -2,7 +2,6 @@
   "version": 2,
   "builds": [
     {
-      "src": "src",
       "use": "@vercel/rust",
       "cmd": "./target/release/posting_service_actix_web"
     }
