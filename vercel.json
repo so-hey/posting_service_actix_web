@@ -4,11 +4,7 @@
     {
       "src": "src",
       "use": "@vercel/rust",
-      "config": {
-        "base": ".",
-        "cmd": "bash install-rust.sh && cargo build release",
-        "output": "target/release"
-      }
+      "cmd": "./target/release/posting_service_actix_web"
     }
   ]
 }

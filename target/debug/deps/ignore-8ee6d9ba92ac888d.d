@@ -1,0 +1,12 @@
+C:\Users\sohtn\Desktop\actix-web-seminar\target\debug\deps\libignore-8ee6d9ba92ac888d.rmeta: C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ignore-0.4.22\src\lib.rs C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ignore-0.4.22\src\default_types.rs C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ignore-0.4.22\src\dir.rs C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ignore-0.4.22\src\gitignore.rs C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ignore-0.4.22\src\overrides.rs C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ignore-0.4.22\src\pathutil.rs C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ignore-0.4.22\src\types.rs C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ignore-0.4.22\src\walk.rs
+
+C:\Users\sohtn\Desktop\actix-web-seminar\target\debug\deps\ignore-8ee6d9ba92ac888d.d: C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ignore-0.4.22\src\lib.rs C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ignore-0.4.22\src\default_types.rs C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ignore-0.4.22\src\dir.rs C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ignore-0.4.22\src\gitignore.rs C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ignore-0.4.22\src\overrides.rs C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ignore-0.4.22\src\pathutil.rs C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ignore-0.4.22\src\types.rs C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ignore-0.4.22\src\walk.rs
+
+C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ignore-0.4.22\src\lib.rs:
+C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ignore-0.4.22\src\default_types.rs:
+C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ignore-0.4.22\src\dir.rs:
+C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ignore-0.4.22\src\gitignore.rs:
+C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ignore-0.4.22\src\overrides.rs:
+C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ignore-0.4.22\src\pathutil.rs:
+C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ignore-0.4.22\src\types.rs:
+C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ignore-0.4.22\src\walk.rs:

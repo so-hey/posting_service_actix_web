@@ -1,0 +1,10 @@
+C:\Users\sohtn\Desktop\actix-web-seminar\target\debug\deps\libfutures_channel-8ee2eb65d5e3398d.rmeta: C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.30\src\lib.rs C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.30\src\lock.rs C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.30\src\mpsc\mod.rs C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.30\src\mpsc\queue.rs C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.30\src\mpsc\sink_impl.rs C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.30\src\oneshot.rs
+
+C:\Users\sohtn\Desktop\actix-web-seminar\target\debug\deps\futures_channel-8ee2eb65d5e3398d.d: C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.30\src\lib.rs C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.30\src\lock.rs C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.30\src\mpsc\mod.rs C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.30\src\mpsc\queue.rs C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.30\src\mpsc\sink_impl.rs C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.30\src\oneshot.rs
+
+C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.30\src\lib.rs:
+C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.30\src\lock.rs:
+C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.30\src\mpsc\mod.rs:
+C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.30\src\mpsc\queue.rs:
+C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.30\src\mpsc\sink_impl.rs:
+C:\Users\sohtn\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.30\src\oneshot.rs:

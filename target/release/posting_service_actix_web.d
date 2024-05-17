@@ -1,0 +1,1 @@
+C:\Users\sohtn\Desktop\posting_service_actix_web\target\release\posting_service_actix_web.exe: C:\Users\sohtn\Desktop\posting_service_actix_web\src\handler\data.rs C:\Users\sohtn\Desktop\posting_service_actix_web\src\handler.rs C:\Users\sohtn\Desktop\posting_service_actix_web\src\main.rs
