@@ -11,8 +11,6 @@ async fn main() -> std::io::Result<()> {
     // ここで指定したもの以上の重要度のlogが表示される
     env_logger::init_from_env(Env::default().default_filter_or("info"));
 
-    println!("http://127.0.0.1:8080");
-
     HttpServer::new(|| {
         let tera = Tera::new("templates/**/*.html").unwrap();
         App::new()
