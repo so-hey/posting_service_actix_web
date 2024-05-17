@@ -4,7 +4,7 @@
   "builds": [
     {
       "src": "src",
-      "use": "@vercel/node",
+      "use": "@vercel/rust",
       "config": {
         "build": {
           "cmd": "bash build.sh",

@@ -2,7 +2,7 @@ mod handler;
 
 use actix_web::{middleware::Logger, web, App, HttpServer};
 use env_logger::Env;
-use handler::{create, delete, destroy, edit, home, new, not_found, show, update};
+use handler::{create, delete, destroy, edit, home, new, not_found, posts, show, update};
 use tera::Tera;
 
 #[actix_rt::main]
@@ -18,6 +18,7 @@ async fn main() -> std::io::Result<()> {
         App::new()
             .app_data(web::Data::new(tera))
             .service(home)
+            .service(posts)
             .service(new)
             .service(create)
             .service(update)

@@ -7,13 +7,28 @@ use log::info;
 use serde::{Deserialize, Serialize};
 use tera::{Context, Tera};
 
-#[get("/posts")]
+#[get("/")]
 pub async fn home(tmpl: web::Data<Tera>) -> impl Responder {
     info!("Called posts");
-    let posts = data::get_all();
+    let all_posts = data::get_all();
     let mut context = Context::new();
-    if !posts.is_empty() {
-        context.insert("posts", &posts);
+    if !all_posts.is_empty() {
+        context.insert("posts", &all_posts);
+    }
+    let body_str = tmpl.render("home.html", &context).unwrap();
+
+    HttpResponse::Ok()
+        .content_type("text/html; charset=utf-8")
+        .body(body_str)
+}
+
+#[get("/posts")]
+pub async fn posts(tmpl: web::Data<Tera>) -> impl Responder {
+    info!("Called posts");
+    let all_posts = data::get_all();
+    let mut context = Context::new();
+    if !all_posts.is_empty() {
+        context.insert("posts", &all_posts);
     }
     let body_str = tmpl.render("home.html", &context).unwrap();
 
