@@ -1,0 +1,16 @@
+{
+  "name": "posting_service_actix_web",
+  "version": 2,
+  "builds": [
+    {
+      "src": "src",
+      "use": "@vercel/node",
+      "config": {
+        "build": {
+          "cmd": "bash build.sh",
+          "output": "target/release"
+        }
+      }
+    }
+  ]
+}
