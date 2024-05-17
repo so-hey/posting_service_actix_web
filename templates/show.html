@@ -1,0 +1,10 @@
+{% extends "base.html" %} {% block content %} {% if post.id > 0 %} {% include "posted.html" %}
+<div class="mb-3 d-grid gap-2 col-4 mx-auto">
+  <a class="btn btn-primary" href="/posts/{{post.id}}/edit">編集</a>
+  <a class="btn btn-danger" href="/posts/{{post.id}}/delete">削除</a>
+</div>
+{% else %}
+<div class="alert alert-danger" style="text-align: center">投稿が見つかりません</div>
+{% endif %}
+<div class="d-grid gap-2 d-md-block"><a class="btn btn-secondary" href="/posts">一覧へ</a></div>
+{% endblock content %}

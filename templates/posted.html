@@ -1,0 +1,10 @@
+<div class="card mb-3">
+  <div class="card-header">
+    posted by <span style="font-size: 1.1rem; font-weight: bold">{{post.sender}}</span>
+    <span style="float: right">{{post.posted}}</span>
+  </div>
+  <div class="card-body">
+    <p class="card-text" style="font-size: large">{{post.content|linebreaksbr|safe}}</p>
+  </div>
+  <a href="/posts/{{post.id}}" class="stretched-link"></a>
+</div>

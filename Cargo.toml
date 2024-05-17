@@ -1,0 +1,18 @@
+[package]
+name = "actix-web-seminar"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-rt = "2.9.0"
+actix-web = "4.5.1"
+chrono = "0.4.38"
+env_logger = "0.11.3"
+log = "0.4.21"
+# rand = "0.8.5"
+serde = "1.0.198"
+serde_json = "1.0.116"
+sqlx = "0.7.4"
+tera = { version = "1.19.1", default-features = false }

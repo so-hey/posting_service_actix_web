@@ -1,0 +1,27 @@
+{% extends "base.html" %} {% block content %}
+<form method="POST" action="/posts/{{form.action}}" class="card mb-3">
+  <div class="card-header">
+    <label for="sender">名前</label>
+    <br />
+    {% if form.action == "delete" %}
+    <p>{{form.post.sender}}</p>
+    {% else %}
+    <input type="text" id="sender" name="sender" size="30" value="{{form.post.sender}}" required />
+    {% endif %}
+  </div>
+  <div class="card-body">
+    <label for="content">内容</label>
+    <br />
+    {% if form.action == "delete" %}
+    <div><p>{{form.post.content}}</p></div>
+    {% else %}
+    <textarea id="content" name="content" style="width: 100%; height: 100px" required>{{form.post.content}}</textarea>
+    {% endif %}
+  </div>
+  <div class="mb-3 d-grid gap-2 col-3 mx-auto">
+    <button type="submit" class="btn btn-outline-secondary">{{form.button}}</button>
+  </div>
+  <input type="hidden" id="id" name="id" value="{{form.post.id}}" />
+  <input type="hidden" id="posted" name="posted" value="{{form.post.posted}}" />
+</form>
+{% endblock content %}
