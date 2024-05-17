@@ -1,1 +1,0 @@
-C:\Users\sohtn\Desktop\actix-web-seminar\target\debug\actix-web-seminar.exe: C:\Users\sohtn\Desktop\actix-web-seminar\src\handler\data.rs C:\Users\sohtn\Desktop\actix-web-seminar\src\handler.rs C:\Users\sohtn\Desktop\actix-web-seminar\src\main.rs
